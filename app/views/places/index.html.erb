@@ -6,4 +6,6 @@
 	</div>
 <% end %>
 
-<%= will_paginate @places %>
+<div class="paginate col-xs-3">
+<%= will_paginate @places, renderer: BootstrapPagination::Rails, page_links: false  %>
+</div>
