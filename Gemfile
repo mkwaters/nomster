@@ -37,6 +37,8 @@ gem 'bootstrap-sass', '~> 3.3.4'
 # Use will_paginate to paginate posts
 gem 'will_paginate-bootstrap'
 
+gem 'simple_form'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
