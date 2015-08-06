@@ -43,6 +43,12 @@ gem 'sprockets', '2.11.0'
 
 gem 'devise', '>= 3.2.4'
 
+#Use geocoder for map
+gem "geocoder"
+
+#Use figaro to store geocoding api securely
+gem "figaro", ">= 1.0.0"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
