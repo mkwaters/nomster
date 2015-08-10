@@ -49,6 +49,9 @@ gem "geocoder"
 #Use figaro to store geocoding api securely
 gem "figaro", ">= 1.0.0"
 
+#Use carrierwave to upload photos for place
+gem 'carrierwave'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
