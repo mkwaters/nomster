@@ -52,6 +52,9 @@ gem "figaro", ">= 1.0.0"
 #Use carrierwave to upload photos for place
 gem 'carrierwave'
 
+#Use fog gem for carrierwave to communicate with S3
+gem "fog", "~> 1.3.1"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
