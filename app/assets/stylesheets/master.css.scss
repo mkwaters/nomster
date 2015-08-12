@@ -1,4 +1,9 @@
 @import url(//fonts.googleapis.com/css?family=Poiret+One);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,500);
+
+@-ms-viewport {
+  width: device-width;
+}
 
 .booyah-box {
   background: #fff;
@@ -16,33 +21,61 @@
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  color: #3E564D;
+  font-size: 48px;
+  font-weight: 400;
+}
+h2 {
+  color: #9A8F97;
+}
+h3 {
+  color: #30343F;
+  font-weight: 300;
+}
+
+a {
+  color: #92ADA3;
+}
+a:hover {
+  color: #3E564D;
 }
 
 body {
-	background: url('/assets/light_toast.png');
+  background-color: #F2F2F2;
 	/* Traditional Garamond-based serif stack */
-	font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
-
+  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .navbar.navbar-inverse {
 	background: url('/assets/dark_wall.png');
+  border: none;
 	border-radius: 0;
 	box-shadow: 0px 1px 3px #9c9c9c;
 	.navbar-brand {
-	  color: #FD5A29;
+	  color: #F7F4EA;
 	  font-family: 'Poiret One', cursive;
 	  font-size: 36px;
-	  text-shadow: 0px 1px 1px #7E327F;
+    font-weight: 400;
 	}
 	.navbar-brand:hover {
-		color: #7E327F;
+		color: #744A5C;
 	}
+  li {
+    i.glyphicon.glyphicon-plus-sign { color: #F7F4EA;}
+    a {
+      color: #F7F4EA;
+      font-size: 16px; 
+    }
+    a:hover, i.glyphicon.glyphicon-plus-sign:hover {
+          color: #744A5C;
+    }
+  }
 }
 
-.paginate {
-	margin: auto;	
-}
+
 
 .field_with_errors {
 	color: #ff333;
@@ -109,4 +142,14 @@ blockquote p {
   .carousel {
     box-shadow: 0px 3px 8px #2a2a2a;
   }
+}
+
+.btn-primary {
+  background-color: #F15F57;
+  border-color: #D6544D;
+}
+
+.btn-primary:hover {
+  background-color: #C74E47;
+  border-color: #B3453F;
 }
