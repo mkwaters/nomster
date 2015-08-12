@@ -43,6 +43,18 @@ a:hover {
   color: #3E564D;
 }
 
+@media (max-width: 750px) {
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  #member-email{
+    font-size: 22px;
+  }
+}
+
 body {
   background-color: #F2F2F2;
 	/* Traditional Garamond-based serif stack */
@@ -61,7 +73,7 @@ body {
     font-weight: 400;
 	}
 	.navbar-brand:hover {
-		color: #744A5C;
+		color: #C499AD;
 	}
   li {
     i.glyphicon.glyphicon-plus-sign { color: #F7F4EA;}
@@ -70,12 +82,10 @@ body {
       font-size: 16px; 
     }
     a:hover, i.glyphicon.glyphicon-plus-sign:hover {
-          color: #744A5C;
+          color: #C499AD;
     }
   }
 }
-
-
 
 .field_with_errors {
 	color: #ff333;
@@ -144,12 +154,24 @@ blockquote p {
   }
 }
 
-.btn-primary {
+/*.btn-primary {
   background-color: #F15F57;
   border-color: #D6544D;
 }
-
 .btn-primary:hover {
   background-color: #C74E47;
   border-color: #B3453F;
+}*/
+.btn-primary {
+  background-color: #92ADA3;
+  border-color: #839B92;
+}
+.btn-primary:hover {
+  background-color: #3E564D;
+  border-color: #364C44;
+}
+
+.user_image {
+  min-width: 90px;
+  width: 35%;
 }
